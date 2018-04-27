@@ -1,0 +1,44 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gaegu', cursive;
+  
+}
+
+h1  {
+  font-weight :700;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.grid-left {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.remove-link{
+  color: red;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.player-name {
+  font-size: 1.3rem;
+}
+
+
+.counter {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.counter__item {
+  padding: 0 1rem;
+}
